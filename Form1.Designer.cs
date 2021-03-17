@@ -60,6 +60,7 @@ namespace Silicon_Hertz_Tool
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "Silicon Hertz Tool";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
