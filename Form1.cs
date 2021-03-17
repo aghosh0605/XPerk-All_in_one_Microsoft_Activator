@@ -16,5 +16,11 @@ namespace Silicon_Hertz_Tool
         {
             InitializeComponent();
         }
+
+        private void win_act_Click(object sender, EventArgs e)
+        {
+            var myForm = new win_act();
+            myForm.Show();
+        }
     }
 }
