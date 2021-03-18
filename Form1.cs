@@ -50,5 +50,11 @@ namespace Silicon_Hertz_Tool
         {
             RunThisAsAdmin();
         }
+
+        private void office_act_Click(object sender, EventArgs e)
+        {
+            var myform2 = new office_activation();
+            myform2.Show();
+        }
     }
 }
