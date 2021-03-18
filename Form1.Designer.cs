@@ -37,6 +37,7 @@ namespace Silicon_Hertz_Tool
             // 
             this.win_act.BackColor = System.Drawing.Color.Indigo;
             this.win_act.FlatAppearance.BorderSize = 0;
+            this.win_act.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.win_act.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.win_act.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.win_act.Location = new System.Drawing.Point(12, 12);
@@ -49,11 +50,12 @@ namespace Silicon_Hertz_Tool
             // 
             // office_act
             // 
-            this.office_act.BackColor = System.Drawing.Color.Indigo;
+            this.office_act.BackColor = System.Drawing.Color.Crimson;
             this.office_act.FlatAppearance.BorderSize = 0;
+            this.office_act.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.office_act.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.office_act.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.office_act.Location = new System.Drawing.Point(149, 12);
+            this.office_act.Location = new System.Drawing.Point(12, 66);
             this.office_act.Name = "office_act";
             this.office_act.Size = new System.Drawing.Size(131, 48);
             this.office_act.TabIndex = 1;
@@ -66,7 +68,9 @@ namespace Silicon_Hertz_Tool
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(686, 396);
+            this.BackgroundImage = global::Silicon_Hertz_Tool.Properties.Resources.pandasecurity_How_do_hackers_pick_their_targets;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(771, 487);
             this.Controls.Add(this.office_act);
             this.Controls.Add(this.win_act);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;

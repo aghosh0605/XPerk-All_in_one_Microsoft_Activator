@@ -32,12 +32,16 @@ namespace Silicon_Hertz_Tool
             this.button1 = new System.Windows.Forms.Button();
             this.professional = new System.Windows.Forms.RadioButton();
             this.Home = new System.Windows.Forms.RadioButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.button1.BackColor = System.Drawing.Color.Indigo;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button1.Location = new System.Drawing.Point(111, 173);
             this.button1.Name = "button1";
@@ -50,10 +54,11 @@ namespace Silicon_Hertz_Tool
             // professional
             // 
             this.professional.AutoSize = true;
+            this.professional.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.professional.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.professional.Location = new System.Drawing.Point(35, 24);
             this.professional.Name = "professional";
-            this.professional.Size = new System.Drawing.Size(82, 17);
+            this.professional.Size = new System.Drawing.Size(130, 28);
             this.professional.TabIndex = 6;
             this.professional.TabStop = true;
             this.professional.Text = "Professional";
@@ -62,14 +67,26 @@ namespace Silicon_Hertz_Tool
             // Home
             // 
             this.Home.AutoSize = true;
+            this.Home.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.Home.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Home.Location = new System.Drawing.Point(223, 24);
+            this.Home.Location = new System.Drawing.Point(35, 58);
             this.Home.Name = "Home";
-            this.Home.Size = new System.Drawing.Size(53, 17);
+            this.Home.Size = new System.Drawing.Size(80, 28);
             this.Home.TabIndex = 7;
             this.Home.TabStop = true;
             this.Home.Text = "Home";
             this.Home.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Silicon_Hertz_Tool.Properties.Resources._1200px_Windows_logo___2012_svg;
+            this.pictureBox1.Location = new System.Drawing.Point(194, 25);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(124, 122);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // win_act
             // 
@@ -77,9 +94,11 @@ namespace Silicon_Hertz_Tool
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(343, 238);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Home);
             this.Controls.Add(this.professional);
             this.Controls.Add(this.button1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -88,6 +107,7 @@ namespace Silicon_Hertz_Tool
             this.ShowInTaskbar = false;
             this.Text = "Windows 10 Activation";
             this.Load += new System.EventHandler(this.win_act_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -97,5 +117,6 @@ namespace Silicon_Hertz_Tool
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RadioButton professional;
         private System.Windows.Forms.RadioButton Home;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

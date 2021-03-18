@@ -45,7 +45,7 @@ namespace Silicon_Hertz_Tool
 
         private void win_act_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
