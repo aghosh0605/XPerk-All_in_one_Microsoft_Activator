@@ -62,5 +62,19 @@ namespace Silicon_Hertz_Tool
             var myform3 = new windows7_activation();
             myform3.Show();
         }
+
+        private void win81_act_Click(object sender, EventArgs e)
+        {
+            var myform5 = new windows81_activation();
+            myform5.Show();
+        }
+
+        private void win8_Click(object sender, EventArgs e)
+        {
+            var myform6 = new win8_acti();
+            myform6.Show();
+        }
+
+
     }
 }
