@@ -133,5 +133,14 @@
   <ItemGroup>
     <None Include="Resources\1200px-Windows_logo_-_2012.svg.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insider-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows 10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows7.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
