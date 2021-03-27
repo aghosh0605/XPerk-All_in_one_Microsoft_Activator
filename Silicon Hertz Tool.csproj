@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="check_os.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="check_os.Designer.cs">
+      <DependentUpon>check_os.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,9 @@
     <Compile Include="win_act.Designer.cs">
       <DependentUpon>win_act.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="check_os.resx">
+      <DependentUpon>check_os.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

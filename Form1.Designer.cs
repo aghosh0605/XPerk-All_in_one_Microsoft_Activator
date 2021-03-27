@@ -140,6 +140,7 @@ namespace Silicon_Hertz_Tool
             this.check_os.TabIndex = 8;
             this.check_os.Text = "Check OS";
             this.check_os.UseVisualStyleBackColor = false;
+            this.check_os.Click += new System.EventHandler(this.check_os_Click);
             // 
             // button2
             // 
