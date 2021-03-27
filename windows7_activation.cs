@@ -41,5 +41,15 @@ namespace Silicon_Hertz_Tool
             process.StartInfo = startInfo;
             process.Start();
         }
+
+        private void Home_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ultimate_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
