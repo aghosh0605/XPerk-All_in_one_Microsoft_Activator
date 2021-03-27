@@ -31,6 +31,7 @@ namespace Silicon_Hertz_Tool
         {
             this.win_act = new System.Windows.Forms.Button();
             this.office_act = new System.Windows.Forms.Button();
+            this.win7_act = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // win_act
@@ -55,13 +56,25 @@ namespace Silicon_Hertz_Tool
             this.office_act.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.office_act.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.office_act.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.office_act.Location = new System.Drawing.Point(12, 66);
+            this.office_act.Location = new System.Drawing.Point(12, 85);
             this.office_act.Name = "office_act";
             this.office_act.Size = new System.Drawing.Size(131, 48);
             this.office_act.TabIndex = 1;
             this.office_act.Text = "Office 2019 Activate";
             this.office_act.UseVisualStyleBackColor = false;
             this.office_act.Click += new System.EventHandler(this.office_act_Click);
+            // 
+            // win7_act
+            // 
+            this.win7_act.BackColor = System.Drawing.Color.Aquamarine;
+            this.win7_act.Font = new System.Drawing.Font("Lucida Console", 12.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.win7_act.Location = new System.Drawing.Point(12, 157);
+            this.win7_act.Name = "win7_act";
+            this.win7_act.Size = new System.Drawing.Size(131, 48);
+            this.win7_act.TabIndex = 2;
+            this.win7_act.Text = "Windows 7 Activate";
+            this.win7_act.UseVisualStyleBackColor = false;
+            this.win7_act.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -70,7 +83,8 @@ namespace Silicon_Hertz_Tool
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::Silicon_Hertz_Tool.Properties.Resources.pandasecurity_How_do_hackers_pick_their_targets;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(771, 487);
+            this.ClientSize = new System.Drawing.Size(603, 487);
+            this.Controls.Add(this.win7_act);
             this.Controls.Add(this.office_act);
             this.Controls.Add(this.win_act);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -88,6 +102,7 @@ namespace Silicon_Hertz_Tool
 
         private System.Windows.Forms.Button win_act;
         private System.Windows.Forms.Button office_act;
+        private System.Windows.Forms.Button win7_act;
     }
 }
 
