@@ -73,9 +73,39 @@ namespace Silicon_Hertz_Tool.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap insider_wallpaper {
+            get {
+                object obj = ResourceManager.GetObject("insider-wallpaper", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pandasecurity_How_do_hackers_pick_their_targets {
             get {
                 object obj = ResourceManager.GetObject("pandasecurity-How-do-hackers-pick-their-targets", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap windows_10 {
+            get {
+                object obj = ResourceManager.GetObject("windows 10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap windows7 {
+            get {
+                object obj = ResourceManager.GetObject("windows7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
