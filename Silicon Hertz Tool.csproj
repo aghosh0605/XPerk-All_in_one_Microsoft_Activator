@@ -61,12 +61,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="wifi_act.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="wifi_act.Designer.cs">
-      <DependentUpon>wifi_act.cs</DependentUpon>
-    </Compile>
     <Compile Include="win8_acti.cs">
       <SubType>Form</SubType>
     </Compile>

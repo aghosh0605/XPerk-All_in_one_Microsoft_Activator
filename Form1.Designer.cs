@@ -34,7 +34,6 @@ namespace Silicon_Hertz_Tool
             this.win7_act = new System.Windows.Forms.Button();
             this.win81_act = new System.Windows.Forms.Button();
             this.win8 = new System.Windows.Forms.Button();
-            this.wifi_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // win_act
@@ -104,18 +103,6 @@ namespace Silicon_Hertz_Tool
             this.win8.UseVisualStyleBackColor = false;
             this.win8.Click += new System.EventHandler(this.win8_Click);
             // 
-            // wifi_btn
-            // 
-            this.wifi_btn.BackColor = System.Drawing.Color.GreenYellow;
-            this.wifi_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wifi_btn.Location = new System.Drawing.Point(13, 379);
-            this.wifi_btn.Name = "wifi_btn";
-            this.wifi_btn.Size = new System.Drawing.Size(130, 49);
-            this.wifi_btn.TabIndex = 6;
-            this.wifi_btn.Text = "Wifi Password";
-            this.wifi_btn.UseVisualStyleBackColor = false;
-            this.wifi_btn.Click += new System.EventHandler(this.wifi_btn_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -124,7 +111,6 @@ namespace Silicon_Hertz_Tool
             this.BackgroundImage = global::Silicon_Hertz_Tool.Properties.Resources.pandasecurity_How_do_hackers_pick_their_targets;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(603, 487);
-            this.Controls.Add(this.wifi_btn);
             this.Controls.Add(this.win8);
             this.Controls.Add(this.win81_act);
             this.Controls.Add(this.win7_act);
@@ -148,7 +134,6 @@ namespace Silicon_Hertz_Tool
         private System.Windows.Forms.Button win7_act;
         private System.Windows.Forms.Button win81_act;
         private System.Windows.Forms.Button win8;
-        private System.Windows.Forms.Button wifi_btn;
     }
 }
 
