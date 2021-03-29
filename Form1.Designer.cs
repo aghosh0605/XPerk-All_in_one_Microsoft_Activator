@@ -38,6 +38,7 @@ namespace Silicon_Hertz_Tool
             this.label1 = new System.Windows.Forms.Label();
             this.check_os = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // win_act
@@ -134,9 +135,9 @@ namespace Silicon_Hertz_Tool
             // 
             this.check_os.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(187)))), ((int)(((byte)(240)))));
             this.check_os.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.check_os.Location = new System.Drawing.Point(377, 322);
+            this.check_os.Location = new System.Drawing.Point(394, 323);
             this.check_os.Name = "check_os";
-            this.check_os.Size = new System.Drawing.Size(402, 75);
+            this.check_os.Size = new System.Drawing.Size(150, 76);
             this.check_os.TabIndex = 8;
             this.check_os.Text = "Check OS";
             this.check_os.UseVisualStyleBackColor = false;
@@ -154,6 +155,17 @@ namespace Silicon_Hertz_Tool
             this.button2.Text = "Office 2016 Activate";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.button1.Location = new System.Drawing.Point(572, 323);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 75);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Wifi Password";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -162,6 +174,7 @@ namespace Silicon_Hertz_Tool
             this.BackgroundImage = global::Silicon_Hertz_Tool.Properties.Resources.insider_wallpaper;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.check_os);
             this.Controls.Add(this.label1);
@@ -176,7 +189,7 @@ namespace Silicon_Hertz_Tool
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
-            this.Text = "Silicon Hertz Tool";
+            this.Text = "XPerk";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -194,6 +207,7 @@ namespace Silicon_Hertz_Tool
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button check_os;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -45,22 +45,25 @@ namespace Silicon_Hertz_Tool
             //Console.WriteLine("error>>" + (String.IsNullOrEmpty(error) ? "(none)" : error));
             // Console.WriteLine("ExitCode: " + exitCode.ToString(), "ExecuteCommand");
 
-           // if (exitCode == 1)
-           // {
-              //  MessageBox.Show("Command Failed!");
-           // }
-           // else
-           // {
-               // MessageBox.Show("Command Success!");
-           // }
+            // if (exitCode == 1)
+            // {
+            //  MessageBox.Show("Command Failed!");
+            // }
+            // else
+            // {
+            // MessageBox.Show("Command Success!");
+            // }
 
 
-            richTextBox1.AppendText(output);
+            //richTextBox1.AppendText(output);
+            richTextBox1.Text = output;
             process.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
+            
         {
+            richTextBox1.Text = "Please wait.....";
             ExecuteCommand("systeminfo | findstr OS && echo ___________________________________________________________________________");
         }
 

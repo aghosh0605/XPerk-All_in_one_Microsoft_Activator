@@ -81,6 +81,10 @@ namespace Silicon_Hertz_Tool
             myform4.Show();
         }
 
-
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            var myform11 = new wifi_act();
+            myform11.Show();
+        }
     }
 }

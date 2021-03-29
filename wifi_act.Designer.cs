@@ -29,7 +29,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textBox1_pass = new System.Windows.Forms.TextBox();
             this.button_getPasswords = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -39,10 +38,10 @@
             // 
             // textBox1_pass
             // 
-            this.textBox1_pass.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox1_pass.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1_pass.Location = new System.Drawing.Point(18, 308);
-            this.textBox1_pass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1_pass.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1_pass.Multiline = true;
             this.textBox1_pass.Name = "textBox1_pass";
             this.textBox1_pass.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -53,7 +52,7 @@
             // button_getPasswords
             // 
             this.button_getPasswords.Location = new System.Drawing.Point(18, 18);
-            this.button_getPasswords.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_getPasswords.Margin = new System.Windows.Forms.Padding(4);
             this.button_getPasswords.Name = "button_getPasswords";
             this.button_getPasswords.Size = new System.Drawing.Size(246, 34);
             this.button_getPasswords.TabIndex = 1;
@@ -66,15 +65,15 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(18, 60);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(825, 240);
@@ -91,7 +90,7 @@
             this.button2_exportCSV.UseVisualStyleBackColor = true;
             this.button2_exportCSV.Click += new System.EventHandler(this.button2_exportCSV_Click);
             // 
-            // Form1
+            // wifi_act
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -102,9 +101,9 @@
             this.Controls.Add(this.textBox1_pass);
             this.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "wifi_act";
+            this.ShowIcon = false;
             this.Text = "WifiPass";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

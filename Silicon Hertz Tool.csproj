@@ -116,6 +116,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="wifi_act.resx">
+      <DependentUpon>wifi_act.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="win8_acti.resx">
       <DependentUpon>win8_acti.cs</DependentUpon>
     </EmbeddedResource>

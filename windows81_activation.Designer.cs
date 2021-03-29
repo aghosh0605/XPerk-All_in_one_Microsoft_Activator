@@ -125,7 +125,10 @@ namespace Silicon_Hertz_Tool
             this.Controls.Add(this.Home);
             this.Controls.Add(this.Professional);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "windows81_activation";
             this.Text = "Windows 8.1 Activator";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
