@@ -109,9 +109,9 @@ namespace Silicon_Hertz_Tool
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(262, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(274, 31);
+            this.label1.Size = new System.Drawing.Size(286, 31);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Select Operatig System Model";
+            this.label1.Text = "Select Operating System Model";
             // 
             // windows81_activation
             // 
@@ -125,8 +125,9 @@ namespace Silicon_Hertz_Tool
             this.Controls.Add(this.Home);
             this.Controls.Add(this.Professional);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "windows81_activation";
-            this.Text = "windows81_activation";
+            this.Text = "Windows 8.1 Activator";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

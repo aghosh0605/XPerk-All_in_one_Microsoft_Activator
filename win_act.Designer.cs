@@ -29,6 +29,7 @@ namespace Silicon_Hertz_Tool
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(win_act));
             this.button1 = new System.Windows.Forms.Button();
             this.professional = new System.Windows.Forms.RadioButton();
             this.Home = new System.Windows.Forms.RadioButton();
@@ -110,9 +111,9 @@ namespace Silicon_Hertz_Tool
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(249, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(274, 31);
+            this.label1.Size = new System.Drawing.Size(286, 31);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Select Operatig System Model";
+            this.label1.Text = "Select Operating System Model";
             // 
             // win_act
             // 
@@ -128,12 +129,12 @@ namespace Silicon_Hertz_Tool
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "win_act";
-            this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "Windows 10 Activation";
+            this.Text = "Windows 10 Activator";
             this.Load += new System.EventHandler(this.win_act_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

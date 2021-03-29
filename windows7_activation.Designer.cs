@@ -29,6 +29,7 @@ namespace Silicon_Hertz_Tool
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(windows7_activation));
             this.Professional = new System.Windows.Forms.RadioButton();
             this.Ultimate = new System.Windows.Forms.RadioButton();
             this.Home = new System.Windows.Forms.RadioButton();
@@ -122,9 +123,9 @@ namespace Silicon_Hertz_Tool
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(264, 350);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(274, 31);
+            this.label1.Size = new System.Drawing.Size(286, 31);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Select Operatig System Model";
+            this.label1.Text = "Select Operating System Model";
             // 
             // windows7_activation
             // 
@@ -139,8 +140,9 @@ namespace Silicon_Hertz_Tool
             this.Controls.Add(this.Home);
             this.Controls.Add(this.Ultimate);
             this.Controls.Add(this.Professional);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "windows7_activation";
-            this.Text = "Activate Windows 7";
+            this.Text = "Windows 7 Activator";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

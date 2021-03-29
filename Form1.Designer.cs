@@ -47,7 +47,7 @@ namespace Silicon_Hertz_Tool
             this.win_act.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.win_act.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.win_act.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.win_act.Location = new System.Drawing.Point(43, 471);
+            this.win_act.Location = new System.Drawing.Point(572, 231);
             this.win_act.Name = "win_act";
             this.win_act.Size = new System.Drawing.Size(150, 75);
             this.win_act.TabIndex = 0;
@@ -62,7 +62,7 @@ namespace Silicon_Hertz_Tool
             this.office_act.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.office_act.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.office_act.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.office_act.Location = new System.Drawing.Point(864, 470);
+            this.office_act.Location = new System.Drawing.Point(225, 323);
             this.office_act.Name = "office_act";
             this.office_act.Size = new System.Drawing.Size(150, 75);
             this.office_act.TabIndex = 1;
@@ -74,7 +74,7 @@ namespace Silicon_Hertz_Tool
             // 
             this.win7_act.BackColor = System.Drawing.Color.Aquamarine;
             this.win7_act.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.win7_act.Location = new System.Drawing.Point(655, 470);
+            this.win7_act.Location = new System.Drawing.Point(54, 230);
             this.win7_act.Name = "win7_act";
             this.win7_act.Size = new System.Drawing.Size(150, 75);
             this.win7_act.TabIndex = 2;
@@ -87,7 +87,7 @@ namespace Silicon_Hertz_Tool
             this.win81_act.BackColor = System.Drawing.Color.Lime;
             this.win81_act.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.win81_act.ForeColor = System.Drawing.Color.Black;
-            this.win81_act.Location = new System.Drawing.Point(447, 472);
+            this.win81_act.Location = new System.Drawing.Point(394, 231);
             this.win81_act.Name = "win81_act";
             this.win81_act.Size = new System.Drawing.Size(150, 75);
             this.win81_act.TabIndex = 4;
@@ -99,7 +99,7 @@ namespace Silicon_Hertz_Tool
             // 
             this.win8.BackColor = System.Drawing.Color.Gold;
             this.win8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.win8.Location = new System.Drawing.Point(239, 472);
+            this.win8.Location = new System.Drawing.Point(225, 230);
             this.win8.Name = "win8";
             this.win8.Size = new System.Drawing.Size(150, 75);
             this.win8.TabIndex = 5;
@@ -111,7 +111,7 @@ namespace Silicon_Hertz_Tool
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Monotype Corsiva", 99.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(456, 9);
+            this.linkLabel1.Location = new System.Drawing.Point(207, 0);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(363, 162);
             this.linkLabel1.TabIndex = 6;
@@ -122,11 +122,11 @@ namespace Silicon_Hertz_Tool
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Black;
-            this.label1.Font = new System.Drawing.Font("Garamond", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Garamond", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label1.Location = new System.Drawing.Point(191, 162);
+            this.label1.Location = new System.Drawing.Point(56, 162);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(869, 54);
+            this.label1.Size = new System.Drawing.Size(666, 42);
             this.label1.TabIndex = 7;
             this.label1.Text = "The One and Only Activator Tool You Need";
             // 
@@ -134,7 +134,7 @@ namespace Silicon_Hertz_Tool
             // 
             this.check_os.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(187)))), ((int)(((byte)(240)))));
             this.check_os.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.check_os.Location = new System.Drawing.Point(447, 575);
+            this.check_os.Location = new System.Drawing.Point(377, 322);
             this.check_os.Name = "check_os";
             this.check_os.Size = new System.Drawing.Size(402, 75);
             this.check_os.TabIndex = 8;
@@ -147,7 +147,7 @@ namespace Silicon_Hertz_Tool
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(22)))), ((int)(((byte)(87)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(1072, 470);
+            this.button2.Location = new System.Drawing.Point(54, 323);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(150, 75);
             this.button2.TabIndex = 9;
@@ -161,7 +161,7 @@ namespace Silicon_Hertz_Tool
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::Silicon_Hertz_Tool.Properties.Resources.insider_wallpaper;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.check_os);
             this.Controls.Add(this.label1);
