@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# XPerk-All_in_one_Microsoft_Activator 🤗
+This is a modular tool for patching different types of Microsoft products. This tool is only limited to the Developers themselves. This tool is solely made for educational purpose.  In any situation, if anyone got this tool and use it with bad intension, then it is their sole responsibility. 
 
-You can use the [editor on GitHub](https://github.com/aghosh0605/XPerk-All_in_one_Microsoft_Activator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## How to install🧐
+- Download the leatest **XPerk.vx.x.x** release from [**Release**](https://github.com/aghosh0605/XPerk-All_in_one_Microsoft_Activator/releases).
+- Open the **XPerk.vx.x.x** to install the package.
+- You will be asked for product key. You can use this key🔑🔑 **IPBM9-WHTRT-TRRGP-6758L**.
+- If the key doesn't works then download **XPerk.Installer.Config.Files.zip** from [**Release**](https://github.com/aghosh0605/XPerk-All_in_one_Microsoft_Activator/releases).
+- Enjoy! 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Software Used 🎇
+1. **Visual Studio 2019** : To make the whole application.
+2. **Winrar**: To extract the zip files and to archive the configuration files.
 
-### Markdown
+## Language Used 🛠
+- **C#** : To make the logics in the app.
+- **Batch Script** : To execute the commands behind the app. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### If you want to contribute then why are you waiting for 😀
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aghosh0605/XPerk-All_in_one_Microsoft_Activator/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+ 
